@@ -1,0 +1,7 @@
+{
+  "url": "https://staging.your-app.example/api/chat",
+  "headers": {"Authorization": "Bearer ${AIGUARD_TEST_TOKEN}"},
+  "body": {"message": "{{message}}"},
+  "response_path": "reply",
+  "actions_path": "actions"
+}
